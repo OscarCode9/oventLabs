@@ -1,0 +1,14 @@
+.imgBodyPhone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 250px;
+    transition: all 2s ease-in-out;
+   
+}
+
+.imgBodyPhone:hover {
+    transform: scale(1.2);
+    
+}

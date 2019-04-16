@@ -1,0 +1,48 @@
+
+body {
+  font-family: 'Roboto'
+}
+
+.navBarUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navBarLi {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 36px;
+  line-height: 36px;
+  transition: .3s;
+  color: #ffffff;
+}
+
+.navBarLi:hover {
+  border-bottom: 3px solid black;
+}
+
+.services {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.services li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 36px;
+  line-height: 36px;
+  transition: .3s;
+  color: #ffffff;
+}
+

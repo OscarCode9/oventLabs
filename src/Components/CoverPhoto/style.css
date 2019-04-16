@@ -1,0 +1,16 @@
+.imgCover {
+    width: 100%;
+    opacity: 0.2;
+}
+
+.imgBack {
+    position: relative;
+    text-align: center;
+    color: white;
+   background: rgba(0, 0, 0, 0.849)
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3em;
+}

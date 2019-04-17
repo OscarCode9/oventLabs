@@ -6,6 +6,8 @@ import Footer from './Components/Footer';
 import {  ContextOne } from './Redux/store'
 import Body from './Components/Body';
 import View_3D from './Components/3DView';
+import Photo_360 from './Components/3DPhoto/App';
+import Typography from '@material-ui/core/Typography';
 
 function AppProvider() {
     let {state} = React.useContext(ContextOne)
@@ -16,6 +18,8 @@ function AppProvider() {
             <CoverPhoto />
             <Body />
             <View_3D />
+            
+            <Photo_360 />
             <Footer />
         </div>
     )
